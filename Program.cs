@@ -1,12 +1,15 @@
 ﻿using System;
 using static System.Console;
 
-namespace lesson___3_10_1
+namespace lesson_3_10_1
 {
     internal class Program
     {
         static void Main(string[] args)  // точка входа
         {
+           
+            WriteLine("Введите число");
+
             int m;
 
             m = int.Parse(ReadLine());
